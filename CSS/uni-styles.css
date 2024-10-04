@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+body{
+	background-color: #2e3144;
+	margin:0;
+	overflow-x:hidden;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+hr{
+	outline-color:white;
+	opacity: 0.2;
+}
+
+main{
+	color: #ebedf9;
+	font-family: 'Nunito', sans-serif;
+	font-size: 35px;
+	line-height: 60px;
+}
+
+/*Custom Scrollbar*/
+
+/*Width*/
+::-webkit-scrollbar {
+	width: 20px;
+}
+
+/*Track*/
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+
+/*handle*/
+::-webkit-scrollbar-thumb {
+	background: ""
+	border-radius: 10px;
+}
