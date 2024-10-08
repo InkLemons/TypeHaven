@@ -39,6 +39,34 @@ main{
 
 /*handle*/
 ::-webkit-scrollbar-thumb {
-	background: ""
+	background: #4557c9;
 	border-radius: 10px;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #495aca;
+}
+
+
+/*NAV STYLES*/
+
+.navbar{
+	position:sticky;
+	top: 0;
+	left: 0;
+	width:100%;
+	background: #2e3144;
+	z-index: 9;
+}
+
+.nav{
+	padding: 10px 10vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.TH-LOGO{
+	height:120px;
+	margin-left:-10%;
 }
