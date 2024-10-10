@@ -3,18 +3,20 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #ff1d25;
+      fill: #ff1d25;
       }
 
       .cls-1, .cls-2 {
-        font-family: CoolveticaRg-Regular, Coolvetica;
-        font-size: 60px;
+      font-family: "coolvetica", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 60px;
       }
 
       .cls-2 {
-        fill: none;
-        stroke: #000;
-        stroke-miterlimit: 10;
+      fill: none;
+      stroke: #000;
+      stroke-miterlimit: 10;
       }
     </style>
   </defs>

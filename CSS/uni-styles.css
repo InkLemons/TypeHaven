@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+@import url("https://use.typekit.net/znk4hus.css");
 
 body{
 	background-color: #2e3144;
@@ -18,9 +19,11 @@ hr{
 	opacity: 0.2;
 }
 
-main{
+main {
 	color: #ebedf9;
-	font-family: 'Nunito', sans-serif;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	font-size: 35px;
 	line-height: 60px;
 }
@@ -69,4 +72,77 @@ main{
 .TH-LOGO{
 	height:120px;
 	margin-left:-10%;
+}
+
+.nav-items{
+	display: flex;
+	margin-left:35%;
+	padding:30px;
+}
+
+.link-container{
+	width: 100%;
+	display: flex;
+	padding: 10px 10vw;
+	justify-content: center;
+	list-style: none;
+	border-top: 1px solid #d53f3f;
+}
+
+.link{
+	text-transform: capitalize;
+	padding: 0 10px;
+	margin-left 0 5px;
+	text-decoration: none;
+	color: #ebedf9;
+	opacity: 0.5;
+	transition: .5s;
+}
+
+.link:hover{
+	opacity:1;
+}
+
+.nav-items a{
+	margin-left:20px;
+}
+
+.nav-items a img{
+	width:60px;
+}
+
+
+
+#header {
+	background:#d16161;
+	height: auto;
+	padding: 100px 100px
+}
+
+#header h1 {
+	color: white;
+	font-family: Arial;
+	text-align: center;
+}
+
+.banner-login-btn {
+	display: block;
+	text-align: center;
+	width: 150px;
+	margin: 0px auto;
+	padding: 10px;
+	color: white;
+	text-transform: uppercase;
+	font-family: Arial;
+	border: 1px solid #fff;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+#btn-holder {
+	width: 100%;
+	display: flex;
+	padding: 10px 10vw;
+	justify-content: center;
+	list-style: none;
 }

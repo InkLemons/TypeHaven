@@ -9,11 +9,10 @@ const createNav = () => {
             </div>   
         </div>
         <ul class="link-container">
-            <li class="link-item"><a href="" class="link">home</a></li>
-            <li class="link-item"><a href="" class="link">about us</a></li>
-            <li class="link-item"><a href="" class="link">field trips</a></li>
-            <li class="link-item"><a href="" class="link">groups</a></li>
-            <li class="link-item"><a href="" class="link">contact</a></li>
+            <li class="link-item"><a href="" class="link">Login</a></li>
+            <li class="link-item"><a href="" class="link">Classes</a></li>
+            <li class="link-item"><a href="" class="link">Profile</a></li>
+            <li class="link-item"><a href="" class="link">Help</a></li>
         <ul>  
     `;
 }
