@@ -11,6 +11,7 @@
       font-weight: 500;
       font-style: normal;
       font-size: 60px;
+      letter-spacing: 2;
       }
 
       .cls-3, .cls-2 {
@@ -20,7 +21,7 @@
       }
 
       .cls-4 {
-      letter-spacing: -.18em;
+      letter-spacing: 1;
       }
     </style>
   </defs>
