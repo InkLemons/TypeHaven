@@ -92,7 +92,7 @@ main {
 .link{
 	text-transform: capitalize;
 	padding: 0 10px;
-	margin-left 0 5px;
+	margin-left: 0 5px;
 	text-decoration: none;
 	color: #ebedf9;
 	opacity: 0.5;
@@ -110,6 +110,9 @@ main {
 .nav-items a img{
 	width:60px;
 }
+
+/*Footer Styles*/
+#footer-img
 
 
 
