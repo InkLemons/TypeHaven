@@ -11,8 +11,8 @@ const createFooter = () => {
                         <td><a href="fieldtrips.html" class="foot-link">Field Trips</a></td>
                     </tr>
                     <tr>
-                        <td><a href="groups.html" class="foot-link">Groups</a></td>
-                        <td><a href="contact.html" class="foot-link">Contact</a></td>
+                        <td><a href="groups.html" class="foot-link">Teacher Login</a></td>
+                        <td><a href="contact.html" class="foot-link">Student Login</a></td>
                     </tr>
                 </table>
             </section>

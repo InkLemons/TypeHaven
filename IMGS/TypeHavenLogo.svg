@@ -3,8 +3,9 @@
   <defs>
     <style>
       .cls-1 {
-      fill: #ff1d25;
+      fill: #8A1CEB;
       letter-spacing: 2;
+      text-shadow: black 5px 5px;
       }
 
       .cls-1, .cls-2 {
@@ -16,10 +17,14 @@
       }
 
       .cls-3, .cls-2 {
-      fill: none;
+      fill: black;
       stroke: #000;
       stroke-miterlimit: 1;
       letter-spacing: 20;
+      }
+      
+      .cls-3 {
+      stroke-width: 8px;
       }
 
       .cls-4 {

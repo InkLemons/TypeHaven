@@ -3,7 +3,7 @@
   <defs>
     <style>
       .cls-1 {
-      fill: #ff1d25;
+      fill: #AD49EB;
       }
 
       .cls-1, .cls-2 {
@@ -11,6 +11,7 @@
       font-weight: 500;
       font-style: normal;
       font-size: 60px;
+      text-shadow: black 2px 2px;
       }
 
       .cls-2 {

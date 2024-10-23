@@ -14,9 +14,10 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-hr{
-	outline-color:white;
+hr {
+	outline-color: white;
 	opacity: 0.2;
+	color: #AD49EB;
 }
 
 main {
@@ -80,13 +81,13 @@ main {
 	padding:30px;
 }
 
-.link-container{
+.link-container {
 	width: 100%;
 	display: flex;
 	padding: 10px 10vw;
 	justify-content: center;
 	list-style: none;
-	border-top: 1px solid #d53f3f;
+	border-top: 1px solid #AD49EB;
 }
 
 .link{
@@ -94,13 +95,12 @@ main {
 	padding: 0 10px;
 	margin-left: 0 5px;
 	text-decoration: none;
-	color: #ebedf9;
-	opacity: 0.5;
-	transition: .5s;
+	color: white;
+	transition: .3s;
 }
 
 .link:hover{
-	opacity:1;
+	color: dimgrey
 }
 
 .nav-items a{
@@ -143,35 +143,58 @@ footer{
 	text-transform: capitalize;
 	padding: 0 10px;
 	color: #ebedf9;
+}
 
+.foot-link-hover{
+	opacity:1;
+}
+
+.Icon-Container{
+	width: 50%;
+	display: grid;
+	grid-template-columns: 60px 60px 60px;
+	grid-gap: 20px;
+	position: absolute;
+	align-items: center;
+	top:45%;
+	left:75%;
 }
 
 
 
 #header {
-	background:#d16161;
+	background: linear-gradient(to right, #9E56E7, #8749C5, #A459F0, #703CA3, #593081, #41235F);
 	height: auto;
 	padding: 100px 100px
 }
 
 #header h1 {
 	color: white;
-	font-family: Arial;
+	font-family: Coolvetica;
 	text-align: center;
+	letter-spacing: 8px;
+	font-size: 150px;
+	margin: 0px 0px 30px 0px;
+	text-shadow: black 10px 10px;
+	
 }
 
 .banner-login-btn {
 	display: block;
 	text-align: center;
-	width: 150px;
-	margin: 0px auto;
-	padding: 10px;
-	color: white;
+	width: 400px;
+	margin: 50px 150px;
+	padding: 30px;
+	color: #AD49EB;
 	text-transform: uppercase;
-	font-family: Arial;
-	border: 1px solid #fff;
+	font-family: Coolvetica;
+	border: 2px solid white;
 	text-decoration: none;
 	border-radius: 10px;
+	letter-spacing: 2px;
+	background: white;
+	font-size: 50px;
+	box-shadow: black 10px 10px;
 }
 
 #btn-holder {
