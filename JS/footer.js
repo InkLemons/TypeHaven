@@ -3,7 +3,7 @@ const createFooter = () => {
 
     footer.innerHTML = `
         <footer>
-            <img id="footer-img" src="img/FooterWaves.png" alt="Footer Image">
+            <img id="footer-img" src="IMGS/TypeHavenSwirl.png" alt="Footer Image">
             <section class="foot-links">
                 <table class="overlay-table">
                     <tr>
