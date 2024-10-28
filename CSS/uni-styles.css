@@ -7,6 +7,14 @@ body{
 	overflow-x:hidden;
 }
 
+body, html {
+	border: 0;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -91,12 +99,14 @@ main {
 }
 
 .link{
-	text-transform: capitalize;
+	text-transform: uppercase;
 	padding: 0 10px;
 	margin-left: 0 5px;
 	text-decoration: none;
 	color: white;
 	transition: .3s;
+	font-family: "coolvetica", sans-serif;
+	letter-spacing: 1px;
 }
 
 .link:hover{
@@ -112,24 +122,23 @@ main {
 }
 
 /*Footer Styles*/
-#footer-img {
-	margin:0%;
-	width: 100%;
-	height:250px;
-	padding-top:2%;
-}
 
-footer{
+footer {
 	position: relative;
 	text-align: center;
 	color: white;
+	background: linear-gradient(to right, #9E56E7, #8749C5, #A459F0, #703CA3, #593081, #41235F);
+	margin: 0%;
+	width: 100%;
+	height: 200px;
+	padding-top:2%
 }
 
 .overlay-table{
 	position: absolute;
 	text-align: center;
 	color: #ebedf9;
-	top: 30%;
+	top: 10%;
 	left: 10%;
 	padding-left: 20px;
 	border-collapse:collapse;
@@ -141,9 +150,10 @@ footer{
 }
 
 .foot-link{
-	text-transform: capitalize;
-	padding: 0 10px;
+	text-transform: uppercase;
 	color: #ebedf9;
+	text-decoration: none;
+	font-size: 20px;
 }
 
 .foot-link-hover{
@@ -161,12 +171,21 @@ footer{
 	left:75%;
 }
 
+.copyright {
+	position: absolute;
+	text-align: center;
+	color: #ebedf9;
+	top: 90%;
+	left: 45%;
+	opacity: 0.2;
+}
 
+/*Homepage Styles*/
 
 #header {
 	background: linear-gradient(to right, #9E56E7, #8749C5, #A459F0, #703CA3, #593081, #41235F);
 	height: auto;
-	padding: 100px 100px
+	padding: 100px 100px;
 }
 
 #header h1 {
@@ -211,5 +230,31 @@ footer{
 	padding: 10px 10vw;
 	justify-content: center;
 	list-style: none;
+}
+
+#home-info .text {
+	color: white;
+	font-size:20px;
+	padding-right: 100px;
+	padding-left: 100px;
+	line-height: 100px;
+}
+
+#home-info img {
+	max-width:100%;
+	max-height:100%;
+}
+
+#home-info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ebedf9;
+	padding: 0px 0px;
+	font-family: "Roboto", sans-serif;
+}
+
+#home-info h2 {
+	font-size: 50px;
 }
 
