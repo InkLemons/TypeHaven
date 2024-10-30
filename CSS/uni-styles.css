@@ -80,7 +80,11 @@ main {
 
 .TH-LOGO{
 	height:120px;
-	margin-left:-10%;
+}
+
+#TH-LOGO-HOLDER{
+	padding:0px;
+	margin-left:-150px;
 }
 
 .nav-items{
@@ -146,7 +150,7 @@ footer {
 }
 
 .overlay-table td {
-	padding:10px;
+	padding:20px;
 }
 
 .foot-link{
@@ -163,11 +167,11 @@ footer {
 .Icon-Container{
 	width: 50%;
 	display: grid;
-	grid-template-columns: 60px 60px 60px;
+	grid-template-columns: 100px 100px 100px;
 	grid-gap: 20px;
 	position: absolute;
 	align-items: center;
-	top:45%;
+	top:25%;
 	left:75%;
 }
 
@@ -178,6 +182,17 @@ footer {
 	top: 90%;
 	left: 45%;
 	opacity: 0.2;
+}
+
+.SM-Icon {
+	width: 100px;
+	height: 100px;
+	opacity: 0.5;
+	transition: .8s;
+}
+
+.SM-Icon:hover {
+	opacity: 1;
 }
 
 /*Homepage Styles*/
@@ -256,5 +271,17 @@ footer {
 
 #home-info h2 {
 	font-size: 50px;
+}
+
+
+/*LOGIN PAGE STYLES*/
+
+.login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	width:100%;
+	height:80%;
 }
 

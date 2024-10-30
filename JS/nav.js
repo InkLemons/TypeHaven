@@ -3,9 +3,9 @@ const createNav = () => {
 
     nav.innerHTML = `
         <div class="nav">
-            <img src="IMGS/TypeHavenLogo.svg" class="TH-LOGO" alt="TypeHaven">
+            <a href="index.html" id="TH-LOGO-HOLDER"><img src="IMGS/TypeHavenLogo.svg" class="TH-LOGO" alt="TypeHaven"></a>
             <div class="nav-items">
-                <a href="index.html"><img src="img/homeicon.svg" class="home-btn" alt="Home Icon"></a>
+                <a href="index.html"><img src="#" class="home-btn" alt="#"></a>
             </div>   
         </div>
         <ul class="link-container">
