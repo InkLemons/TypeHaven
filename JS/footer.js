@@ -22,7 +22,7 @@ const createFooter = () => {
                     <img src="IMGS/FB_ICON.svg" class="SM-Icon" alt="Facebook">
                 </div>
             </section>
-            <p class="copyright">&#169;2024 InkLemons</p>
+            <a href="https://github.com/InkLemons"><p class="copyright">&#169;2024 InkLemons</p></a>
         </footer>
     `;
 }
