@@ -23,7 +23,6 @@ body, html {
 }
 
 hr {
-	outline-color: white;
 	opacity: 0.2;
 	color: #AD49EB;
 }
@@ -102,7 +101,7 @@ main {
 	border-top: 1px solid #AD49EB;
 }
 
-.link{
+.link {
 	text-transform: uppercase;
 	padding: 0 10px;
 	margin-left: 0 5px;
@@ -111,6 +110,7 @@ main {
 	transition: .3s;
 	font-family: "coolvetica", sans-serif;
 	letter-spacing: 1px;
+	text-shadow: black 2px 2px;
 }
 
 .link:hover{
@@ -238,6 +238,7 @@ footer {
 	font-size: 50px;
 	box-shadow: black 10px 10px;
 	transition:0.5s;
+	text-shadow: #2e3144 4px 2px;
 }
 
 .banner-login-btn:hover {
@@ -312,9 +313,9 @@ footer {
 
 .user-pass-boxes {
 	font-size: 25px;
-	height:80%;
+	height:50%;
 	border-radius:10px;
-	align-content:center;
+	align-items:center;
 	padding:20px;
 	justify-content:center;
 }
@@ -323,16 +324,34 @@ footer {
 	font-family: "coolvetica", sans-serif;
 	font-size: 50px;
 	padding-top:20px;
+	align-items:center;
+	text-align:center;
 }
 
 .user-pass-boxes input {
 	border-radius: 10px;
 	border: solid 2px black;
-	width: 75%;
-	height: 40px;
-	padding-bottom: 40px;
+	width:80%;
 	align-items:center;
 	font-size:30px;
+	padding: 10px;
+	display:block;
+	margin:0 auto;
+}
+
+.show-pass {
+	text-align: center;
+	font-size: 30px;
+}
+
+.show-pass label {
+	font-family: "coolvetica", sans-serif;
+}
+
+#login-hr {
+	border: solid 2px black;
+	opacity: 1;
+	margin:0px 5px 0px 5px;
 }
  
 

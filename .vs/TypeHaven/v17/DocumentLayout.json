@@ -15,6 +15,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zryqslj\\Desktop\\TypeHaven\\TypeHaven\\JS\\nav.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JS\\nav.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zryqslj\\Desktop\\TypeHaven\\TypeHaven\\JS\\footer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JS\\footer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "nav.js",
+              "DocumentMoniker": "C:\\Users\\zryqslj\\Desktop\\TypeHaven\\TypeHaven\\JS\\nav.js",
+              "RelativeDocumentMoniker": "JS\\nav.js",
+              "ToolTip": "C:\\Users\\zryqslj\\Desktop\\TypeHaven\\TypeHaven\\JS\\nav.js",
+              "RelativeToolTip": "JS\\nav.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-01T17:41:17.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "footer.js",
               "DocumentMoniker": "C:\\Users\\zryqslj\\Desktop\\TypeHaven\\TypeHaven\\JS\\footer.js",
               "RelativeDocumentMoniker": "JS\\footer.js",
@@ -53,7 +70,7 @@
               "RelativeDocumentMoniker": "CSS\\uni-styles.css",
               "ToolTip": "C:\\Users\\zryqslj\\Desktop\\TypeHaven\\TypeHaven\\CSS\\uni-styles.css",
               "RelativeToolTip": "CSS\\uni-styles.css",
-              "ViewState": "AgIAACEBAAAAAAAAAAAUwE0BAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAADkBAAAAAAAAAAAAAGEBAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-10T18:34:54.159Z",
               "EditorCaption": ""
@@ -72,7 +89,7 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\zryqslj\\Desktop\\TypeHaven\\TypeHaven\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-10-10T18:30:46.663Z",
               "EditorCaption": ""
@@ -85,7 +102,7 @@
               "RelativeDocumentMoniker": "stu-login.html",
               "ToolTip": "C:\\Users\\zryqslj\\Desktop\\TypeHaven\\TypeHaven\\stu-login.html",
               "RelativeToolTip": "stu-login.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-10-30T19:18:24.569Z",
               "EditorCaption": ""
