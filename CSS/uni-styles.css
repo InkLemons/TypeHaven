@@ -88,8 +88,9 @@ main {
 
 .nav-items{
 	display: flex;
-	margin-left:35%;
-	padding:30px;
+	margin-left:75%;
+	align-items:center;
+	margin-right:-125px;
 }
 
 .link-container {
@@ -122,8 +123,9 @@ main {
 }
 
 .nav-items a img{
-	width:60px;
+	width:80px;
 }
+
 
 /*Footer Styles*/
 
@@ -158,9 +160,11 @@ footer {
 	color: #ebedf9;
 	text-decoration: none;
 	font-size: 20px;
+	opacity: 0.5;
+	transition: 0.5s;
 }
 
-.foot-link-hover{
+.foot-link:hover{
 	opacity:1;
 }
 
@@ -289,8 +293,8 @@ footer {
 	justify-content: center;
 	color: Black;
 	width: 100%;
-	height: 80%;
-	background: #9550F5;
+	height: 100%;
+	background: linear-gradient(to right, #9E56E7, #8749C5, #A459F0, #703CA3, #593081, #41235F);
 }
 
 .login-box {
@@ -313,10 +317,10 @@ footer {
 
 .user-pass-boxes {
 	font-size: 25px;
-	height:50%;
+	height:40%;
 	border-radius:10px;
 	align-items:center;
-	padding:20px;
+	padding:10px;
 	justify-content:center;
 }
 
@@ -352,6 +356,63 @@ footer {
 	border: solid 2px black;
 	opacity: 1;
 	margin:0px 5px 0px 5px;
+}
+
+#google-sign-in {
+	width: 100px;
+	height: 100px;
+	padding-top:10px;
+}
+
+#login-btns {
+	width: 100%;
+	height:30%;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.login-submit {
+	display: block;
+	text-align: center;
+	width: 200px;
+	height:120px;
+	margin: 30px 30px;
+	padding: 0px;
+	color: #AD49EB;
+	text-transform: uppercase;
+	font-family: Coolvetica;
+	border: 2px solid black;
+	text-decoration: none;
+	border-radius: 10px;
+	letter-spacing: 2px;
+	background: white;
+	font-size: 50px;
+	box-shadow: black 10px 10px;
+	transition: 0.5s;
+	text-shadow: #2e3144 4px 2px;
+	align-content:center;
+}
+
+.errormsg {
+	color: red;
+	font-family: "coolvetica", sans-serif;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+.new-accnt {
+	text-align: center;
+	font-size:30px;
+}
+
+.new-accnt a {
+	text-decoration: none;
+	color: #6A7EE6;
+	font-family: "coolvetica", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
 }
  
 

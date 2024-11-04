@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="CSS/uni-styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/znk4hus.css">
     <link rel="icon" href="IMGS/TypeHaven Logo (TH).svg">
+    <script>
+        function showPass() {
+        var x = document.getElementById("password");
+        if (x.type === "password") {
+        x.type = "text";
+        } else {
+        x.type = "password";
+    }
+        }
+    </script>
 </head>
 
 <body>
@@ -22,10 +32,12 @@
             <br />
             <hr id="login-hr"/>
             <div class="user-pass-boxes">
-                <p>Username</p>
-                <input type="text" id="username" size="10">
-                <p>Password</p>
-                <input type="password" id="password" size="10">
+                <form>
+                    <p>Username</p>
+                    <input type="text" id="username" size="10">
+                    <p>Password</p>
+                    <input type="password" id="password" size="10">
+                </form>
             </div>
             <div class="show-pass">
                 <form>
@@ -33,6 +45,18 @@
                         <label><input type="checkbox" onclick="showPass()"/> Show Password</label>
                     </div>
                 </form>
+            </div>
+            <div class="errormsg">
+                Incorrect Username or Password.
+            </div>
+            <div>
+                <ul id="login-btns">
+                    <li class="login-button"><a href="#" class="login-submit">Log In</a></li>
+                    <li class="login-button"><a href="#" class="login-submit"><img src="IMGS/GOOGLE_LOGO.svg" id="google-sign-in" /></a></li>
+                </ul>
+            </div>
+            <div class="new-accnt">
+                <a href="#">Create Account</a>
             </div>
         </div>
     </div>
