@@ -10,7 +10,7 @@ const createNav = () => {
         </div>
         <ul class="link-container">
             <li class="link-item"><a href="" class="link">Profile</a></li>
-            <li class="link-item"><a href="" class="link">Classes</a></li>
+            <li class="link-item"><a href="class-list.html" class="link">Classes</a></li>
             <li class="link-item"><a href="" class="link">Help</a></li>
             <li class="link-item"><a href="stu-login.html" class="link">Student Login</a></li>
             <li class="link-item"><a href="teach-login.html" class="link">Teacher Login</a></li>
