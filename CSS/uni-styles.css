@@ -494,6 +494,57 @@ footer {
 	margin:5px 10px;
 }
 
- 
+/*PROFILE STYLES*/
 
+.profile-holder {
+	background: linear-gradient(to right, #9E56E7, #8749C5, #A459F0, #703CA3, #593081, #41235F);
+	width: 100%;
+}
 
+.profile-pic-space{
+	display:flex;
+	align-content:center;
+}
+
+.profile-picture {
+	height:200px;
+	width:200px;
+	margin:50px;
+}
+
+.profile-pic-space h1 {
+	font-size: 50px;
+}
+
+.user-desc {
+	align-content:center;
+}
+
+.profile-pic-space .redirs {
+	align-items: center;
+	margin-left: 55%;
+}
+
+.redirs {
+	display:flex;
+}
+
+.pro-icon {
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	display: block;
+}
+
+.pro-icon img{
+	z-index:1;
+}
+
+.blur-background {
+	width:80px;
+	height:80px;
+	background:blue;
+	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+	filter: blur(2px);
+	z-index:0;
+}
