@@ -1,0 +1,78 @@
+/*Homepage Styles*/
+
+#header {
+    background: linear-gradient(to right, #9E56E7, #8749C5, #A459F0, #703CA3, #593081, #41235F);
+    height: auto;
+    padding: 100px 100px;
+}
+
+#header h1 {
+    color: white;
+    font-family: Coolvetica;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 150px;
+    margin: 0px 0px 30px 0px;
+    text-shadow: black 10px 10px
+
+}
+
+
+.banner-login-btn {
+    display: block;
+    text-align: center;
+    width: 400px;
+    margin: 50px 150px;
+    padding: 30px;
+    color: #AD49EB;
+    text-transform: uppercase;
+    font-family: Coolvetica;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    background: white;
+    font-size: 50px;
+    box-shadow: black 10px 10px;
+    transition: 0.5s;
+    text-shadow: #2e3144 4px 2px;
+}
+
+.banner-login-btn:hover {
+    width: 350px;
+    margin: 50px 175px;
+}
+
+#btn-holder {
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+}
+
+#home-info .text {
+    color: white;
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    line-height: 100px;
+}
+
+#home-info img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#home-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ebedf9;
+    padding: 0px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+#home-info h2 {
+    font-size: 50px;
+}
