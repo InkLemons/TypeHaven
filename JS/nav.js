@@ -11,7 +11,7 @@ const createNav = () => {
         <ul class="link-container">
             <li class="link-item"><a href="profile.html" class="link">Profile</a></li>
             <li class="link-item"><a href="class-list.html" class="link">Classes</a></li>
-            <li class="link-item"><a href="" class="link">Help</a></li>
+            <li class="link-item"><a href="help.html" class="link">Help</a></li>
             <li class="link-item"><a href="stu-login.html" class="link">Student Login</a></li>
             <li class="link-item"><a href="teach-login.html" class="link">Teacher Login</a></li>
 

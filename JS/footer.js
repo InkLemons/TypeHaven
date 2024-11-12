@@ -6,7 +6,7 @@ const createFooter = () => {
             <section class="foot-links">
                 <table class="overlay-table">
                     <tr>
-                        <td><strong><a href="aboutus.html" class="foot-link">About Us</a></strong></td>
+                        <td><strong><a href="help.html" class="foot-link">Help</a></strong></td>
                         <td><strong><a href="profile.html" class="foot-link">profile</a></strong></td>
                     </tr>
                     <tr>
